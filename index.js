@@ -1,4 +1,4 @@
-const drivertest = function(name, dob){
+function Driver(name, dob){
   this.name = name
   this.dob = dob
 }
