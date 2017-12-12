@@ -17,19 +17,19 @@ class Route{
     this.endingLocation = endingLocation
   }
 
-  //
-  // blocksTravelled(){
-    //let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-  //   const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
-  //   const beginningVertical = this.beginningLocation.vertical
-  //
-  //   const endingHorizontal = eastWest.indexOf(this.endingLocation.horizontal)
-  //   const endingVertical = this.endingLocation.vertical
-  //
-  //   let horizontalDistance = endingHorizontal - beginningHorizontal
-  //   let verticalDistance = endingVertical - beginningVertical
-  //
-  //   return horizontalDistance + verticalDistance
-  // }
+  
+  blocksTravelled(){
+    let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+    const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
+    const beginningVertical = this.beginningLocation.vertical
+
+    const endingHorizontal = eastWest.indexOf(this.endingLocation.horizontal)
+    const endingVertical = this.endingLocation.vertical
+
+    let horizontalDistance = endingHorizontal - beginningHorizontal
+    let verticalDistance = endingVertical - beginningVertical
+
+    return horizontalDistance + verticalDistance
+  }
 
 }
