@@ -41,7 +41,7 @@ class Route{
       }
     }
 
-    return this.blocksTravelled()/blockPerMinute()
+    return this.blocksTravelled()/3
 
   }
 
