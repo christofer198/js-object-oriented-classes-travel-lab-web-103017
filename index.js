@@ -1,4 +1,4 @@
-function Driver(name, dob){
+function Driver(name, startDate){
   this.name = name
-  this.dob = dob
+  this.startDate = startDate
 }
