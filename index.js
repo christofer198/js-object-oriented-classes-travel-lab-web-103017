@@ -41,7 +41,7 @@ class Route{
       }
     }
 
-    return blocksTravelled
+    return this.blocksTravelled()
 
   }
 
