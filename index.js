@@ -16,9 +16,10 @@ class Route{
     this.beginningLocation = beginningLocation
     this.endingLocation = endingLocation
   }
-  
+
   //
   // blocksTravelled(){
+    //let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   //   const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
   //   const beginningVertical = this.beginningLocation.vertical
   //
