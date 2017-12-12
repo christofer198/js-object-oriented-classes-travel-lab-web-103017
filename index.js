@@ -34,10 +34,10 @@ class Route{
 
   estimatedTime(peak = false){
     let blockPerMinute = function(peak){
-      if(peak === false){
-        return 3
-      } else{
+      if(peak){
         return 2
+      } else{
+        return 3
       }
     }
 
