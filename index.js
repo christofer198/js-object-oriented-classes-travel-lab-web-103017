@@ -17,7 +17,7 @@ class Route{
     this.endingLocation = endingLocation
   }
 
-  
+
   blocksTravelled(){
     let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
@@ -30,6 +30,10 @@ class Route{
     let verticalDistance = endingVertical - beginningVertical
 
     return horizontalDistance + verticalDistance
+  }
+
+  estimatedTime(){
+    
   }
 
 }
