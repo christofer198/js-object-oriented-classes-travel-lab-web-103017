@@ -41,7 +41,7 @@ class Route{
       }
     }
 
-    return blocksTravelled()/blockPerMinute(peak)
+    return this.blocksTravelled()/blockPerMinute(peak)
 
   }
 
