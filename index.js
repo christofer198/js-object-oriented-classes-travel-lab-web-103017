@@ -40,7 +40,7 @@ class Route{
         return 2
       }
     }
-
+    console.log(this.blocksTravelled)
     return this.blocksTravelled/blockPerMinute
 
   }
