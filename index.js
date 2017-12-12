@@ -1,4 +1,4 @@
-const driver = function(name, dob){
+const drivertest = function(name, dob){
   this.name = name
-  this.dob = dob 
+  this.dob = dob
 }
