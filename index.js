@@ -32,7 +32,16 @@ class Route{
     return horizontalDistance + verticalDistance
   }
 
-  estimatedTime(){
+  estimatedTime(peak = false){
+    let blockPerMinute = function(peak){
+      if(peak == false){
+        return 3
+      } else{
+        return 2
+      }
+    }
+
+    
     
   }
 
