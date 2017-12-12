@@ -16,19 +16,19 @@ class Route{
     this.beginningLocation = beginningLocation
     this.endingLocation = endingLocation
   }
-  let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-
-  blocksTravelled(){
-    const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
-    const beginningVertical = this.beginningLocation.vertical
-
-    const endingHorizontal = eastWest.indexOf(this.endingLocation.horizontal)
-    const endingVertical = this.endingLocation.vertical
-
-    let horizontalDistance = endingHorizontal - beginningHorizontal
-    let verticalDistance = endingVertical - beginningVertical
-
-    return horizontalDistance + verticalDistance
-  }
+  // let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+  //
+  // blocksTravelled(){
+  //   const beginningHorizontal = eastWest.indexOf(this.beginningLocation.horizontal)
+  //   const beginningVertical = this.beginningLocation.vertical
+  //
+  //   const endingHorizontal = eastWest.indexOf(this.endingLocation.horizontal)
+  //   const endingVertical = this.endingLocation.vertical
+  //
+  //   let horizontalDistance = endingHorizontal - beginningHorizontal
+  //   let verticalDistance = endingVertical - beginningVertical
+  //
+  //   return horizontalDistance + verticalDistance
+  // }
 
 }
