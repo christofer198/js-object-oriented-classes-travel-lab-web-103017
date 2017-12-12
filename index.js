@@ -41,8 +41,8 @@ class Route{
       }
     }
 
-    
-    
+    return this.blocksTravelled/blockPerMinute
+
   }
 
 }
