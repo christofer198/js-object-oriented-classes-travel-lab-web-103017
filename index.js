@@ -1,4 +1,4 @@
 function Driver(name, startDate){
   this.name = name
-  this.startDate = startDate.toDate()
+  this.startDate = new Date(startDate)
 }
