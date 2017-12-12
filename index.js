@@ -27,10 +27,8 @@ class Route{
 
     let horizontalDistance = endingHorizontal - beginningHorizontal
     let verticalDistance = endingVertical - beginningVertical
-    
+
     return horizontalDistance + verticalDistance
-    
   }
 
-  
 }
